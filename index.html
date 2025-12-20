@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Gym - Fitness Center</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <img src="Sources/logo.jpg" alt="" width="5%">
+          <span>EXPLORE GYM</span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-background">
+      <img src="Sources/hero.png" alt="Fitness trainer" width="1042" height="1300">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <h1>Best Fitness Center</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis, nunc a pretium viverra, ante urna egestas tortor, in vehicula leo ex eu nulla.</p>
+      <div class="hero-buttons">
+        <button class="btn btn-primary" data-scroll-to="trial">Free Trial</button>
+        <button class="btn btn-secondary">Learn More</button>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="star">★</span>
+        <span>4.7 Google Rating</span>
+      </div>
+      <div class="stat">
+        <span class="hero-member">500+ Members Trained</span>
+      </div>
+      <div class="stat">
+        <span class="hero-trainer">Certified Trainers</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are dedicated fitness professionals committed to helping you achieve your health and fitness goals. Our state-of-the-art facility and experienced trainers provide a supportive environment for all fitness levels.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="courses" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/>
+            </svg>
+          </div>
+          <h3>Strength Training</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis, nunc a pretium viverra.</p>
+          <button class="btn btn-primary">Learn More</button>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            </svg>
+          </div>
+          <h3>Weight Loss</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis, nunc a pretium viverra.</p>
+          <button class="btn btn-primary">Learn More</button>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+          </div>
+          <h3>Personal Training</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis, nunc a pretium viverra.</p>
+          <button class="btn btn-primary">Learn More</button>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/>
+            </svg>
+          </div>
+          <h3>Group Classes</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis, nunc a pretium viverra.</p>
+          <button class="btn btn-primary">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Membership Plans -->
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <h2>Membership Plans</h2>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <h3>Basic</h3>
+          <div class="price">
+            <span class="currency">₹</span>
+            <span class="amount">499</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="features">
+            <li>Gym Access</li>
+            <li>Locker Room</li>
+            <li>Free Parking</li>
+            <li>Basic Equipment</li>
+          </ul>
+          <button class="btn btn-primary">Join Now</button>
+        </div>
+        <div class="pricing-card featured">
+          <div class="popular-badge">Most Popular</div>
+          <h3>Premium</h3>
+          <div class="price">
+            <span class="currency">₹</span>
+            <span class="amount">699</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="features">
+            <li>All Basic Features</li>
+            <li>Group Classes</li>
+            <li>Personal Training Session</li>
+            <li>Nutrition Consultation</li>
+            <li>Premium Equipment</li>
+          </ul>
+          <button class="btn btn-primary">Join Now</button>
+        </div>
+        <div class="pricing-card">
+          <h3>Pro</h3>
+          <div class="price">
+            <span class="currency">₹</span>
+            <span class="amount">1299</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="features">
+            <li>All Premium Features</li>
+            <li>Unlimited Personal Training</li>
+            <li>Meal Planning</li>
+            <li>24/7 Access</li>
+            <li>VIP Locker</li>
+          </ul>
+          <button class="btn btn-primary">Join Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="why-choose">
+    <div class="container">
+      <h2>Why Choose Us</h2>
+      <div class="features-grid">
+        <div class="feature">
+          <div class="feature-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+          </div>
+          <h3>Experienced Trainer</h3>
+          <p>Professional trainer with years of experience</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            </svg>
+          </div>
+          <h3>Modern Equipment</h3>
+          <p>State-of-the-art fitness equipment for all your workout needs</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+            </svg>
+          </div>
+          <h3>Flexible Timings</h3>
+          <p>Open 5AM to 10AM in Morning & 5PM to 9PM Evening to fit your busy schedule</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/>
+            </svg>
+          </div>
+          <h3>Results Driven</h3>
+          <p>Proven track record of helping members achieve their goals</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meet Our Trainers -->
+  <section class="trainers">
+    <div class="container">
+      <h2>Meet The Trainer</h2>
+      <div class="trainers-grid">
+        <div class="trainer-card">
+          <img src="Sources/trianer.png" alt="Trainer David" width="975" height="650">
+          <h3>Sonu Navghare</h3>
+          <p>Personal Training Specialist</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Member Success Stories -->
+  <section class="success-stories">
+    <div class="container">
+      <h2>Member Success Stories</h2>
+      <div class="stories-grid">
+        <div class="story-card">
+          <div class="before-after">
+            <img src="https://images.pexels.com/photos/2011383/pexels-photo-2011383.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Success story" width="520" height="650">
+          </div>
+          <p>"Lost 30 pounds in 6 months with the help of amazing trainers and personalized workout plans."</p>
+          <h4>Sarah Johnson</h4>
+        </div>
+        <div class="story-card">
+          <div class="before-after">
+            <img src="https://images.pexels.com/photos/2011377/pexels-photo-2011377.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Success story" width="813" height="650">
+          </div>
+          <p>"Gained muscle mass and improved my overall fitness level beyond my expectations."</p>
+          <h4>Mike Chen</h4>
+        </div>
+        <div class="story-card">
+          <div class="before-after">
+            <img src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Success story" width="975" height="650">
+          </div>
+          <p>"Transformed my lifestyle and achieved the best shape of my life at age 45."</p>
+          <h4>Lisa Rodriguez</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Facilities & Equipment -->
+  <section class="facilities">
+    <div class="container">
+      <h2>Facilities & Equipment</h2>
+      <div class="facilities-grid">
+        <img src="Sources/squats.jpg" alt="Cardio equipment" width="975" height="650">
+        <img src="Sources/trademill.jpg" alt="Weight training area" width="434" height="650">
+        <img src="Sources/gym.jpg" alt="Free weights section" width="979" height="650">
+        <img src="Sources/gym2.jpg" alt="Functional training area" width="975" height="650">
+        <img src="Sources/benchpress.jpg" alt="Group fitness studio" width="975" height="650">
+        <img src="Sources/racks.jpg" alt="Locker rooms" width="975" height="650">
+      </div>
+    </div>
+  </section>
+
+  <!-- Free Trial -->
+  <section class="trial">
+    <div class="container">
+      <div class="trial-content">
+        <h2>Get Your Free Trial Pass</h2>
+        <p>Start your fitness journey today with a complimentary trial session</p>
+        <form class="trial-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <input type="tel" placeholder="Phone Number" required>
+          <button type="submit" class="btn btn-primary">Claim Your Pass</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location & Contact -->
+  <section id="contact" class="location">
+    <div class="container">
+      <div class="location-content">
+        <div class="map">
+          <iframe class= "contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14980.875379781784!2d79.9732442520838!3d20.16661156140271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a2cfb53e11d7ec3%3A0x65abe54e4ea40120!2sThe%20Explore%20Gym%20Gadchiroli!5e0!3m2!1sen!2sin!4v1766233749370!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-info">
+          <h2>Location & Contact</h2>
+          <div class="contact-details">
+            <div class="contact-item">
+              <h3>Address</h3>
+              <p>1st Floor Dongre Complex<br>Navegaon Gadchiroli</p>
+            </div>
+            <div class="contact-item">
+              <h3>Phone</h3>
+              <a href="tel:7744016618" style="text-decoration: none; color:aliceblue">
+                  <p>7744016618</p>
+              </a>
+            </div>
+            <div class="contact-item">
+              <h3>Email</h3>
+              <p>info@fitnessenter.com</p>
+            </div>
+            <div class="contact-item">
+              <h3>Hours</h3>
+              <p>Mon-Sat: 5:00 AM - 11:00 AM<br>
+                 Mon-Sat: 5:00 PM - 09:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Services</a></li>
+            <li><a href="#pricing">Membership</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#">Strength Training</a></li>
+            <li><a href="#">Personal Training</a></li>
+            <li><a href="#">Group Classes</a></li>
+            <li><a href="#">Nutrition Coaching</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Membership</h3>
+          <ul>
+            <li><a href="#">Basic Plan</a></li>
+            <li><a href="#">Premium Plan</a></li>
+            <li><a href="#">Pro Plan</a></li>
+            <li><a href="#">Corporate</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="tel:5551234567">(555) 123-4567</a></li>
+            <li><a href="mailto:info@fitnesscenter.com">info@fitnesscenter.com</a></li>
+            <li>123 Fitness Street<br>New York, NY 10001</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Fitness Center. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
