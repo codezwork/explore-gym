@@ -214,10 +214,24 @@
         <h2>Get Your Free Trial Pass</h2>
         <p>Start your fitness journey today with a complimentary trial session</p>
         
-        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {alert('Thank you! Your trial is booked.'); window.location.reload();}"></iframe>
-        
-        <form class="trial-form" action="https://docs.google.com/forms/d/e/1FAIpQLSejEcYFGh5eDEJ6MFNhNFsLpFuHw_einmglxVUE2Hf3uVvx4Q/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
-          
+       <div class="success-message" id="trial-success">
+        <h3>Trial Booked Successfully! 🎉</h3>
+        <p>We've received your request and have sent the details on your mail!
+          <br>
+          Please show the email you have received at the reception.
+        </p>
+      </div>
+
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+        onload="if(submitted) {
+          document.querySelector('.trial-form').style.display='none';
+          document.getElementById('trial-success').style.display='block';
+          // Optional: Scroll to the message if needed
+          document.getElementById('trial-success').scrollIntoView({behavior: 'smooth', block: 'center'});
+        }">
+      </iframe>
+
+      <form class="trial-form" action="https://docs.google.com/forms/d/e/1FAIpQLSejEcYFGh5eDEJ6MFNhNFsLpFuHw_einmglxVUE2Hf3uVvx4Q/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">          
           <input type="text" name="entry.665808204" placeholder="Your Name" required>
           <input type="email" name="entry.291707327" placeholder="Your Email" required>
           <input type="tel" name="entry.2110791788" placeholder="Phone Number" required>

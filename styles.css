@@ -1038,3 +1038,33 @@ html {
         padding: 1rem;
     }
 }
+
+/* Trial Success Message */
+.success-message {
+  display: none; /* Hidden by default */
+  background: rgba(76, 175, 80, 0.1); /* Subtle green background */
+  border: 2px solid #4caf50; /* Green border */
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.success-message h3 {
+  color: #4caf50;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.success-message p {
+  color: #ffffff;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
